@@ -6,7 +6,7 @@ import com.servidor.aldazabal.entity.Cliente;
 
 public interface IClienteService {
 	
-	public void registrar( Cliente cliente);
+	public Cliente registrarActualizar( Cliente cliente);
 	public void eliminar( int codCliente);
 	
 	public List<Cliente> listar();	

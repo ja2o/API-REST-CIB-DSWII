@@ -16,9 +16,8 @@ public class IClienteServiceImpl implements IClienteService {
 	private IClienteRepository repo;
 
 	@Override
-	public void registrar(Cliente cliente) {
-		repo.save( cliente );
-		
+	public Cliente registrarActualizar(Cliente cliente) {
+		return repo.save( cliente );		
 	}
 
 	@Override
